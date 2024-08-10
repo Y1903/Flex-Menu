@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(https://images.pexels.com/photos/1438445/pexels-photo-1438445.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(37, 35, 35);
+  color: white;
+  width: 100vw;
+  height: 25vh;
+}
+.li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1, 8em;
+  font-weight: 5em;
+}
+.header-section h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 5em;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  width: 18vw;
+  border: 0.01em solid white;
+  background-color: rgb(48, 45, 45);
+  color: white;
+  font-size: 2em;
+  border: 0, 01em solid white;
+  padding: 0,5em;
+}
+.main-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  margin: 2em;
+}
+.main-section h2,
+h3,
+h4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0.01em solid white;
+  padding: 1em;
+  margin: 0;
+  width: 40vw;
+  height: 10vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 2em;
+  background-color: white;
+  margin: 0.5em;
+}
+.main-section h3 {
+  background-color: rgb(199, 199, 176);
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  align-items: center;
+}
+@media screen and (max-width: 600px) {
+  .header-section {
+    flex-direction: column;
+    justify-content: start;
+  }
+}
